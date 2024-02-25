@@ -28,8 +28,12 @@ public class LevelManager : MonoBehaviour
 
 
   
-        weatherColors = new Color[] { Color.blue, Color.gray, Color.yellow, Color.cyan }; //color options
+        weatherColors = new Color[] { Color.red, Color.blue, Color.yellow, Color.cyan }; //color options
     }
+
+    """Eventually, the colors with correlate with the weather patterns
+    """Each time a color changes, the weather changes.
+ 
 
     private void Update()
     {
